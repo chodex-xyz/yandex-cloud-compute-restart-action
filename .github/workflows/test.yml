@@ -13,7 +13,8 @@ jobs:
     - uses: actions/checkout@v1
 
     - run: npm ci
-    - run: npm test
+
     - uses: ./
       with:
-        milliseconds: 1000
+        oauthToken: ${{ secrets.OAUTH_TOKEN }}
+        folderId: ${{ secrets.FOLDER_ID }}
