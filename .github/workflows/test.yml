@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v1
 
     - run: npm ci
-    - run: npm rebuild
+    - run: npm rebuild --target=8.1.0 --target_platform=linux --target_arch=x64 --target_libc=glibc --update-binary
 
     - uses: ./
       with:
