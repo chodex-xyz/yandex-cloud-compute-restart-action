@@ -12,12 +12,11 @@ jobs:
     steps:
     - uses: actions/setup-node@v1
       with:
-        node-version: '10.x'
+        node-version: '7.2'
         registry-url: 'https://registry.npmjs.org
     - uses: actions/checkout@v1
 
     - run: npm ci
-    - run: npm rebuild --target=8.1.0 --target_platform=linux --target_arch=x64 --target_libc=glibc --update-binary
 
     - uses: ./
       with:
