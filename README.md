@@ -25,5 +25,5 @@ jobs:
 ```
 
 2.[Secrets](https://help.github.com/en/articles/virtual-environments-for-github-actions#creating-and-using-secrets-encrypted-variables):
-    - OAUTH_TOKEN - https://cloud.yandex.ru/docs/iam/concepts/authorization/oauth-token
-    - FOLDER_ID - https://console.cloud.yandex.ru/cloud
+  - OAUTH_TOKEN - https://cloud.yandex.ru/docs/iam/concepts/authorization/oauth-token
+  - FOLDER_ID - https://console.cloud.yandex.ru/cloud
