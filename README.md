@@ -28,12 +28,12 @@ Auto restart stopped compute instances
 
   1. Login
 
-    ```bash
-    yc init
-    ```
+```bash
+yc init
+```
   
   1. Get token and folder id and setup secrets
 
-    ```bash
-    yc config list
-    ```
+```bash
+yc config list
+```
