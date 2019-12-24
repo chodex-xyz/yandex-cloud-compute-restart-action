@@ -4,7 +4,7 @@ Auto restart stopped compute instances
 
 ## Usage
 
-  1. Create a new file `custom-workflow.yml` in the `.github/workflow` directory with the following example code.
+  1. Create a new file `custom-workflow.yml` in the `.github/workflows` directory with the following example code.
 
         ```yaml
         name: "Restart instances if they stopped"
